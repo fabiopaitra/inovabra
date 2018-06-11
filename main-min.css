@@ -76,7 +76,8 @@ h1 {
   text-align: left;
   line-height: 2.2rem;
   padding-left: 6vw;
-  margin-bottom: 3vw; }
+  margin-bottom: 3vw;
+  margin-top: 20px; }
 
 h2 {
   color: #e0173b;
@@ -103,7 +104,8 @@ hr {
   font-size: 3em;
   color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
-  text-shadow: 0px 0px 20px #000000; }
+  text-shadow: 0px 0px 20px #000000;
+  overflow: hidden; }
 
 .toggle:hover {
   color: white;
@@ -131,11 +133,14 @@ hr {
   transition: right 0.5s ease-in-out .1s; }
 
 .sidebar li {
-  padding: 3vh; }
+  padding: 3vh;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: auto; }
 
 .sidebar li a {
   color: rgba(255, 255, 255, 0.7);
-  font-weight: 700; }
+  font-weight: 900; }
 
 .sidebar li a:hover {
   color: white; }
@@ -152,7 +157,10 @@ hr {
   padding: 3vh 3vw; }
 
 .container {
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50px; }
 
 .foto-container {
   display: -webkit-box;
@@ -165,7 +173,7 @@ hr {
           justify-content: center; }
 
 .foto-container figure {
-  margin: 30px 20px 30px 20px; }
+  margin: 30px 20px 0 20px; }
 
 .btn {
   border: 2px solid black;
@@ -244,8 +252,17 @@ hr {
           box-shadow: 0 0 20px rgba(170, 170, 170, 0.5); }
 
 .foto-container figcaption {
-  margin: 20px 0;
-  max-width: 30vw; }
+  margin: 5px 0 30px;
+  max-width: 30vw;
+  line-height: 1.2em; }
+
+.red {
+  color: #c91735 !important; }
+
+.foto-container figcaption span {
+  margin-top: 5px;
+  font-size: 0.7em;
+  line-height: 1.4em; }
 
 .line {
   display: -webkit-box;
@@ -321,23 +338,28 @@ hr {
 .header-home {
   position: absolute;
   top: -25vh;
-  width: 110vw;
-  height: 370px;
+  width: 110%;
+  height: 330px;
   background-image: -webkit-gradient(linear, left top, right top, from(#c91735), to(#89161f));
   background-image: linear-gradient(90deg, #c91735, #89161f);
   z-index: -1;
   -webkit-transform: rotate(3deg);
-          transform: rotate(3deg); }
+          transform: rotate(3deg);
+  overflow: hidden; }
+
+@media screen and (min-width: 500px) {
+  .header-home {
+    height: 390px; } }
 
 .geodesica {
-  position: fixed;
-  bottom: -50px;
+  position: absolute;
+  bottom: 0;
   left: -700px;
-  width: 160vw;
-  height: 80vh;
+  width: 300vw;
+  height: 150vh;
   background-image: url(images/geodesica.jpg);
   background-repeat: no-repeat;
-  z-index: -1; }
+  z-index: -3; }
 
 .geodesica-1 {
   position: absolute;
@@ -389,34 +411,3 @@ hr {
 
 video {
   max-width: 90vw; }
-
-/* Effect 1: Brackets */
-.cl-effect-1 a::before,
-.cl-effect-1 a::after {
-  display: inline-block;
-  opacity: 0;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-  -webkit-transition: opacity 0.2s, -webkit-transform 0.3s;
-  transition: opacity 0.2s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.2s;
-  transition: transform 0.3s, opacity 0.2s, -webkit-transform 0.3s; }
-
-.cl-effect-1 a::before {
-  margin-right: 10px;
-  content: '[';
-  -webkit-transform: translateX(20px);
-  transform: translateX(20px); }
-
-.cl-effect-1 a::after {
-  margin-left: 10px;
-  content: ']';
-  -webkit-transform: translateX(-20px);
-  transform: translateX(-20px); }
-
-.cl-effect-1 a:hover::before,
-.cl-effect-1 a:hover::after,
-.cl-effect-1 a:focus::before,
-.cl-effect-1 a:focus::after {
-  opacity: 1;
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px); }
