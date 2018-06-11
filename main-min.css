@@ -210,7 +210,7 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(/images/btn-01.jpg);
+  background-image: url(images/btn-01.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 86vw;
@@ -218,13 +218,13 @@ hr {
   margin: 3vh 6vw; }
 
 .btn-home li:nth-child(2) {
-  background-image: url(/images/btn-02.jpg); }
+  background-image: url(images/btn-02.jpg); }
 
 .btn-home li:nth-child(3) {
-  background-image: url(/images/btn-03.jpg); }
+  background-image: url(images/btn-03.jpg); }
 
 .btn-home li:nth-child(4) {
-  background-image: url(/images/btn-04.jpg); }
+  background-image: url(images/btn-04.jpg); }
 
 .btn-home ul li a {
   -ms-flex-item-align: center;
