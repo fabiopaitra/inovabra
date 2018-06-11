@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.vscode\/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -16,23 +24,385 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/Desktop\/index.html": {
+	"\/equipe.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/Desktop\/index.html",
-		"oF": 2
+		"oAP": "\/equipe.html",
+		"oF": 0
 		},
-	"\/habitat-b.jpg": {
+	"\/images\/abertura-bradesco.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/abertura-bradesco.mp4",
+		"oF": 0
+		},
+	"\/images\/black-geodesic.png": {
+		"ft": 32768,
+		"iS": 14197,
+		"oA": 0,
+		"oAP": "\/images\/black-geodesic.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/book-startups.jpg": {
 		"ft": 16384,
-		"iS": 1958942,
+		"iS": 92092,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/habitat-b.jpg",
+		"oAP": "\/images\/book-startups.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/images\/btn-01.jpg": {
+		"ft": 16384,
+		"iS": 45852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/btn-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/btn-02.jpg": {
+		"ft": 16384,
+		"iS": 39705,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/btn-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/btn-03.jpg": {
+		"ft": 16384,
+		"iS": 37767,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/btn-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/btn-04.jpg": {
+		"ft": 16384,
+		"iS": 47627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/btn-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-01.jpg": {
+		"ft": 16384,
+		"iS": 16498,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/foto-02.jpg": {
+		"ft": 16384,
+		"iS": 11407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-03.jpg": {
+		"ft": 16384,
+		"iS": 12122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-04.jpg": {
+		"ft": 16384,
+		"iS": 10461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-05.jpg": {
+		"ft": 16384,
+		"iS": 9436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-06.jpg": {
+		"ft": 16384,
+		"iS": 11436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-07.jpg": {
+		"ft": 16384,
+		"iS": 14568,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-08.jpg": {
+		"ft": 16384,
+		"iS": 15486,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-09.jpg": {
+		"ft": 16384,
+		"iS": 10968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-10.jpg": {
+		"ft": 16384,
+		"iS": 11183,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-11.jpg": {
+		"ft": 16384,
+		"iS": 13713,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-12.jpg": {
+		"ft": 16384,
+		"iS": 11680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-13.jpg": {
+		"ft": 16384,
+		"iS": 13308,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-14.jpg": {
+		"ft": 16384,
+		"iS": 11762,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-15.jpg": {
+		"ft": 16384,
+		"iS": 11716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-16.jpg": {
+		"ft": 16384,
+		"iS": 12277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/geodesica.jpg": {
+		"ft": 16384,
+		"iS": 95326,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/geodesica.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/intro.jpg": {
+		"ft": 16384,
+		"iS": 110483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/logo-footer.jpg": {
+		"ft": 16384,
+		"iS": 3895,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-header.jpg": {
+		"ft": 16384,
+		"iS": 8936,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/logo-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-header.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-header.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/video.jpg": {
+		"ft": 16384,
+		"iS": 170905,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/white-geodesic.png": {
+		"ft": 32768,
+		"iS": 11321,
+		"oA": 0,
+		"oAP": "\/images\/white-geodesic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/institucional.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/institucional.html",
+		"oF": 0
+		},
+	"\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/main-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/sobre.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sobre.html",
+		"oF": 0
+		},
+	"\/startup.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/startup.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -53,7 +423,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
+	"autoprefixerEnableIEGrid": 1,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1813,7 +2183,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},

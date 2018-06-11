@@ -1,0 +1,427 @@
+/**
+* Desenvolvido por Fabio Paitra @fabiopaitra para o InovaBra
+* Este arquivo tem por objetivo estilizar a página inicial que inclui
+* Elementos da estrutura
+* Classes
+
+*/
+
+/** CSS Reset */
+
+html, body, div, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: 400 1.04em/1.7em Muli, sans-serif;
+	color: #212121;
+ 	-moz-osx-font-smoothing:grayscale;
+ 	-webkit-font-smoothing:antialiased;
+ 	-webkit-text-size-adjust:100%;
+ 	-ms-text-size-adjust:100%;
+ 	text-size-adjust:100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: flex;
+} */
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+span {
+	display: block;
+}
+/** Elements */
+
+nav{
+	display: flex;
+	padding-top: 5vh;
+	padding-bottom: 1vh;
+	padding-left: 5vw;
+}
+
+h1{
+	color: #e0173b;
+	font-weight: 900;
+	font-size: 2rem;
+	text-align: left;
+	line-height: 2.2rem;
+	padding-left: 6vw;
+	margin-bottom: 3vw;
+    
+}
+h2{
+	color: #e0173b;
+	font-weight: 900;
+	margin: 0 0 1vw 2vw;
+	font-size: 2.5em;
+	text-align: left;
+	line-height: 1.2em;
+}
+a {
+	text-decoration: none;
+	color: slategray;
+}
+hr {
+	border-color: rgb(162, 185, 207);
+	width: 95vw;
+	
+}
+
+/** Classes */
+
+.toggle {
+	position: absolute;
+	top: 2vh;
+	right: 3vw;
+	z-index: 3;
+	font-size: 3em;
+	color: rgba(255, 255, 255, .7);
+	cursor: pointer;
+	text-shadow: 0px 0px 20px #000000;
+}
+.toggle:hover {
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 0px 0px 100px #000000;
+}
+#sidebartoggler {
+	display: none;
+}
+
+#sidebartoggler:checked + .sidebar {
+	right: 0;
+	transition: right .5s ease-in-out .1s;
+}
+
+.sidebar {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	padding: 15vh 0 0 0;
+	background: rgba(40, 40, 40, .95);
+	z-index: 2;
+	right: -100vw;
+	top: 0;
+	text-align: center;
+	transition: right 0.5s ease-in-out .1s;
+}
+
+.sidebar li {
+	padding: 3vh;
+}
+.sidebar li a {
+	color: rgba(255, 255, 255, .7);
+	font-weight: 700;
+}
+.sidebar li a:hover {
+	color: rgba(255, 255, 255, 1)
+}
+
+
+.flex {
+	display: flex;
+}
+.menu {
+	margin: auto 0 auto 5vw;
+}
+.menu a {
+	padding: 3vh 3vw;
+}
+.container {
+	overflow: hidden;
+
+}
+.foto-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.foto-container figure {
+	margin: 30px 20px 30px 20px;
+
+}
+
+.btn {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	cursor: pointer;
+	display: block;
+	max-width: 25vw;
+	border-radius: .5em;
+	margin: 3vh auto;
+
+}
+
+.default {
+	border-color: #333333;
+	color: black;
+	transition: all .2s ease-out 0s;
+}
+
+.default:hover {
+	background: #333;
+	color: white;
+	transition: all .2s ease-out 0s;
+}
+
+.pdf {
+	width: 70vw;
+	margin-top: 2vh;
+	opacity: 90%;
+}
+.pdf:hover {
+	opacity: 100%;
+}
+.btn-home {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 7vh 
+}
+.btn-home ul li {
+	display: flex;
+	background-image: url(/images/btn-01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 86vw;
+	height: 23vh;
+	margin: 3vh 6vw;
+	
+}
+.btn-home li:nth-child(2) {
+	background-image: url(/images/btn-02.jpg)
+}
+.btn-home li:nth-child(3) {
+	background-image: url(/images/btn-03.jpg)
+}
+.btn-home li:nth-child(4) {
+	background-image: url(/images/btn-04.jpg);
+}
+.btn-home ul li a {
+	align-self: center;
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	line-height: 1.3em;
+	padding: 40px;
+  width: 100%;
+}
+
+.foto-container figure img{
+	max-width: 30vw;
+	box-shadow: 0 0 20px  rgba(170, 170, 170, .5);
+}
+
+.foto-container figcaption {
+	margin: 20px 0;
+	max-width: 30vw;
+}
+.line {
+	display: flex;
+	position: absolute;
+	height: 25vh;
+	width: 0.01vh;
+	left: 44vw;
+	top: 18vh;
+	border: 1px solid #e0173b ;
+}
+
+.foto-container strong{
+	display: block;
+}
+.foto-container span {
+	font-size: .8em;
+}
+
+.intro-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5vh;
+}
+.intro-1 {
+	flex: 2;
+	text-align: left;
+	padding-top: 7vw;
+	
+}
+.intro-1 span {
+	color: #e0173b;
+	font-size: 2em;
+	display: block;
+	line-height: 1em;
+}
+.intro-1 img {
+	max-width: 86vw;
+	margin-left: 6vw;
+}
+
+.intro-2{
+	flex: 1;
+	min-width: 35vw;
+	padding-left: 6vw;
+	padding-right: 6vw;
+	padding-top: 10vw;
+}
+.intro-2 h3 {
+	font-weight: 700;
+	padding-bottom: 10px;
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+.intro-2 p {
+	font-size: 1em;
+}
+
+.equipe{
+	text-align: center;
+ 	padding: 10vw 1vh;
+}
+.institucional{
+	text-align: center;
+	padding: 10vw 1vh;
+	margin-top: 10vw;
+	 
+}
+.end {
+	color: #e0173b;
+	font-weight: 700;
+	line-height: 2.2em
+}
+
+
+.header-home {
+	position: absolute;
+	top: -25vh;
+	width: 110vw;
+	height: 40vh;
+	background-image: linear-gradient(90deg, #c91735, #89161f);
+	z-index: -1;
+	transform: rotate(3deg);
+}
+.geodesica {
+	position: fixed;
+	bottom: -50px;
+	left: -700px;
+	width: 160vw;
+	height: 80vh;
+	background-image: url(images/geodesica.jpg);
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+.geodesica-1 {
+	position: absolute;
+	top: -200px;
+	clip-path: inset(0 0 7vh 0);
+	background-image: url(images/white-geodesic.png);
+	width: 20vw;
+	height: 56vh;
+	transform: rotate(3deg);
+	right: -40px;
+	z-index: -1;
+	mix-blend-mode: color;
+	opacity: 0.3;
+}
+.geodesica-2 {
+	position: absolute;
+    top: 121px;
+    clip-path: inset(0 0 -4vh 0);
+    background-image: url(images/white-geodesic.png);
+    width: 14vw;
+    height: 11vh;
+    transform: rotate(3deg);
+    right: 140px;
+    z-index: -1;
+    mix-blend-mode: overlay;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.geodesica-3 {
+	position: absolute;
+	top: 0px;
+	clip-path: inset(0 0 7vh 0);
+	background-image: url(images/white-geodesic.png);
+	width: 68vw;
+	height: 31vh;
+	transform: rotate(3deg);
+	left: -164px;
+	z-index: -1;
+	mix-blend-mode: soft-light;
+	opacity: 0.5;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+video {
+	max-width: 90vw;
+}
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
