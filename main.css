@@ -220,6 +220,7 @@ hr {
 	width: 86vw;
 	height: 23vh;
 	margin: 3vh 6vw;
+	background-size: cover;
 	
 }
 .btn-home li:nth-child(2) {

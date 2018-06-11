@@ -215,7 +215,8 @@ hr {
   background-size: 100% auto;
   width: 86vw;
   height: 23vh;
-  margin: 3vh 6vw; }
+  margin: 3vh 6vw;
+  background-size: cover; }
 
 .btn-home li:nth-child(2) {
   background-image: url(images/btn-02.jpg); }
