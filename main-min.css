@@ -273,9 +273,6 @@ hr {
   margin-top: 5vh; }
 
 .intro-1 {
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
   text-align: left;
   padding-top: 7vw; }
 
@@ -325,7 +322,7 @@ hr {
   position: absolute;
   top: -25vh;
   width: 110vw;
-  height: 40vh;
+  height: 370px;
   background-image: -webkit-gradient(linear, left top, right top, from(#c91735), to(#89161f));
   background-image: linear-gradient(90deg, #c91735, #89161f);
   z-index: -1;
