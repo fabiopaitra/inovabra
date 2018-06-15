@@ -298,6 +298,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/intro.gif": {
+		"ft": 4194304,
+		"iS": 200440,
+		"oA": 0,
+		"oAP": "\/images\/intro.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/intro.jpg": {
 		"ft": 16384,
 		"iS": 110483,

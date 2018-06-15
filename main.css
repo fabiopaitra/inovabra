@@ -300,17 +300,30 @@ hr {
 }
 .intro-1 span {
 	color: #e0173b;
-	font-size: 2em;
-	display: block;
+	font-size: 1.3em;
+	display: inline-block;
 	line-height: 1em;
+	border-bottom: #e0173b solid 2px;
+	vertical-align: bottom;
 }
+
+.intro-1 span:after {
+	content: "";
+    display: inline-block;
+    height: 0.7em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-left: -140%;
+    border-bottom: 2px solid #e0173b;
+    margin-bottom: -2px;
+}
+
 .intro-1 img {
 	max-width: 86vw;
 	margin-left: 6vw;
 }
 
 .intro-2{
-	flex: 1;
 	min-width: 35vw;
 	padding-left: 6vw;
 	padding-right: 6vw;
@@ -332,19 +345,29 @@ hr {
 }
 .institucional{
 	text-align: center;
-	padding: 10vw 1vh;
 	margin-top: 10vw;
 	 
 }
 .end {
 	color: #e0173b;
 	font-weight: 700;
-	line-height: 2.2em
+	line-height: 2.2em;
 }
+.end:after {
+	content:"";
+	display: inline-block;
+	height: 0.7em;
+	vertical-align: bottom;
+	width: 100%;
+	margin-right: -100%;
+	margin-left: 5px;
+	border-top: 1px solid #e0173b;
+}
+
 
 .header-home {
 	position: absolute;
-	top: -25vh;
+	top: -200px;
 	width: 110%;
 	height: 330px;
 	background-image: linear-gradient(90deg, #c91735, #89161f);
@@ -355,7 +378,7 @@ hr {
 
 @media screen and (min-width: 500px) {
 	.header-home {
-		height: 390px;
+		height: 370px;
 	}
 }
 
