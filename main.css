@@ -24,7 +24,7 @@ time, mark, audio {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font: 400 1.04em/1.7em Muli, sans-serif;
+	font: 400 1em/1.7em Muli, sans-serif;
 	color: #212121;
  	-moz-osx-font-smoothing:grayscale;
  	-webkit-font-smoothing:antialiased;
@@ -164,7 +164,7 @@ hr {
 .menu a {
 	padding: 3vh 3vw;
 }
-.container {
+.conteudo {
 	overflow: hidden;
 	width: 100%;
 	position: relative;
@@ -181,6 +181,41 @@ hr {
 	margin: 30px 20px 0 20px;
 
 }
+
+.container-startups {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.row-startups {
+	display: flex;
+	margin: 20px;
+}
+
+.box-startups {
+	background-color: #fff;
+	box-shadow: 0px 0px 50px #eaeaea;
+}
+.box-startups img {
+	display: flex;
+	margin: 10px 0;
+	width: 200px;
+}
+
+.inline {
+	display: inline !important;
+}
+.box-startups span {
+	display: inline;
+	text-transform: uppercase;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.box-startups p {
+	text-align: left;
+}
+
 
 .btn {
 	border: 2px solid black;

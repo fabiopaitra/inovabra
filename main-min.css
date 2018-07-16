@@ -23,7 +23,7 @@ time, mark, audio {
   margin: 0;
   padding: 0;
   border: 0;
-  font: 400 1.04em/1.7em Muli, sans-serif;
+  font: 400 1em/1.7em Muli, sans-serif;
   color: #212121;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -156,7 +156,7 @@ hr {
 .menu a {
   padding: 3vh 3vw; }
 
-.container {
+.conteudo {
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -174,6 +174,43 @@ hr {
 
 .foto-container figure {
   margin: 30px 20px 0 20px; }
+
+.container-startups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.row-startups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px; }
+
+.box-startups {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 50px #eaeaea;
+          box-shadow: 0px 0px 50px #eaeaea; }
+
+.box-startups img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  width: 200px; }
+
+.inline {
+  display: inline !important; }
+
+.box-startups span {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #ccc; }
+
+.box-startups p {
+  text-align: left; }
 
 .btn {
   border: 2px solid black;
@@ -295,18 +332,27 @@ hr {
 
 .intro-1 span {
   color: #e0173b;
-  font-size: 2em;
-  display: block;
-  line-height: 1em; }
+  font-size: 1.3em;
+  display: inline-block;
+  line-height: 1em;
+  border-bottom: #e0173b solid 2px;
+  vertical-align: bottom; }
+
+.intro-1 span:after {
+  content: "";
+  display: inline-block;
+  height: 0.7em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-left: -140%;
+  border-bottom: 2px solid #e0173b;
+  margin-bottom: -2px; }
 
 .intro-1 img {
   max-width: 86vw;
   margin-left: 6vw; }
 
 .intro-2 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   min-width: 35vw;
   padding-left: 6vw;
   padding-right: 6vw;
@@ -327,13 +373,22 @@ hr {
 
 .institucional {
   text-align: center;
-  padding: 10vw 1vh;
   margin-top: 10vw; }
 
 .end {
   color: #e0173b;
   font-weight: 700;
   line-height: 2.2em; }
+
+.end:after {
+  content: "";
+  display: inline-block;
+  height: 0.7em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 5px;
+  border-top: 1px solid #e0173b; }
 
 .header-home {
   position: absolute;
