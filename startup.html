@@ -54,12 +54,12 @@
 								<div class="box-startups" style="padding: 20px">
 									<img :src="'images/logos/' + startup.Imagem + '.png'">
 									<p><span>Nome:</span> <strong>{{ startup.Nome }}</strong></p>
-									<p><span class="inline">Site: </span> <a class="inline" :href="'http://' + startup.Site" target="startup">{{ startup.Site }}</a></p>
+									<p class="text-truncate"><span class="inline">Site: </span> <a class="inline" :href="'http://' + startup.Site" :title="startup.Site" target="startup">{{ startup.Site }}</a></p>
 									<p><span>Sede:</span> {{ startup.Sede }}</p>
 									<p><span>Fundação:</span> {{ startup['Fundação'] }}</p>
 									<p><span>Área de atuação:</span> {{ startup['Área de atuação'] }}</p>
 									<p><span>Founder(s):</span> {{ startup['Founder(s)'] }}</p>
-									<p><span>E-mail:</span> <a :href="'mailto:' + startup['E-mail']" class="inline">{{ startup['E-mail'] }}</a></p>
+									<p class="text-truncate"><span>E-mail:</span> <a :href="'mailto:' + startup['E-mail']" :title="startup['E-mail']"  class="inline">{{ startup['E-mail'] }}</a></p>
 								</div>
 							</a>
 						</li>
