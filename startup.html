@@ -81,7 +81,7 @@
 	new Vue({
 		el: '#vue-list-startups',
 		mounted: function () {
-			axios.get('/resources/startups.csv')
+			axios.get('resources/startups.csv')
 				.then((fileData) => {
 					var startupsRaw = fileData.data || '';
 
