@@ -399,6 +399,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logos\/1m2.png": {
+		"ft": 32768,
+		"iS": 16958,
+		"oA": 0,
+		"oAP": "\/images\/logos\/1m2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/2cx.png": {
 		"ft": 32768,
 		"iS": 6724,
@@ -432,6 +443,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/access55.png": {
+		"ft": 32768,
+		"iS": 17581,
+		"oA": 0,
+		"oAP": "\/images\/logos\/access55.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/acesso-digital.png": {
+		"ft": 32768,
+		"iS": 24211,
+		"oA": 0,
+		"oAP": "\/images\/logos\/acesso-digital.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/adimplere.png": {
 		"ft": 32768,
 		"iS": 32433,
@@ -454,11 +487,63 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/agrusdata.png": {
+		"ft": 32768,
+		"iS": 22498,
+		"oA": 0,
+		"oAP": "\/images\/logos\/agrusdata.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/appus.png": {
 		"ft": 32768,
 		"iS": 47477,
 		"oA": 0,
 		"oAP": "\/images\/logos\/appus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/axei-saude.png": {
+		"ft": 32768,
+		"iS": 27456,
+		"oA": 0,
+		"oAP": "\/images\/logos\/axei-saude.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/badoda.gif": {
+		"ft": 4194304,
+		"iS": 48626,
+		"oA": 0,
+		"oAP": "\/images\/logos\/badoda.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/logos\/badoda.png": {
+		"ft": 32768,
+		"iS": 5916,
+		"oA": 0,
+		"oAP": "\/images\/logos\/badoda.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/bcf-solution.png": {
+		"ft": 32768,
+		"iS": 24633,
+		"oA": 0,
+		"oAP": "\/images\/logos\/bcf-solution.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -487,11 +572,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/bigland.png": {
+		"ft": 32768,
+		"iS": 18761,
+		"oA": 0,
+		"oAP": "\/images\/logos\/bigland.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/blue-shift.png": {
+		"ft": 32768,
+		"iS": 20652,
+		"oA": 0,
+		"oAP": "\/images\/logos\/blue-shift.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/bot-maker.png": {
 		"ft": 32768,
 		"iS": 15941,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bot-maker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/botmaker.png": {
+		"ft": 32768,
+		"iS": 15941,
+		"oA": 0,
+		"oAP": "\/images\/logos\/botmaker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/carenet.png": {
+		"ft": 32768,
+		"iS": 20443,
+		"oA": 0,
+		"oAP": "\/images\/logos\/carenet.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -542,6 +671,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/data-h.png": {
+		"ft": 32768,
+		"iS": 23666,
+		"oA": 0,
+		"oAP": "\/images\/logos\/data-h.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/data-mundus.png": {
 		"ft": 32768,
 		"iS": 8824,
@@ -575,11 +715,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/decision6.png": {
+		"ft": 32768,
+		"iS": 21667,
+		"oA": 0,
+		"oAP": "\/images\/logos\/decision6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/devtecnologia.png": {
+		"ft": 32768,
+		"iS": 22797,
+		"oA": 0,
+		"oAP": "\/images\/logos\/devtecnologia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/digital-influencers.png": {
 		"ft": 32768,
 		"iS": 6063,
 		"oA": 0,
 		"oAP": "\/images\/logos\/digital-influencers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/direct-digital.png": {
+		"ft": 32768,
+		"iS": 20956,
+		"oA": 0,
+		"oAP": "\/images\/logos\/direct-digital.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/direct.one.png": {
+		"ft": 32768,
+		"iS": 20853,
+		"oA": 0,
+		"oAP": "\/images\/logos\/direct.one.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/e-emovel.png": {
+		"ft": 32768,
+		"iS": 47332,
+		"oA": 0,
+		"oAP": "\/images\/logos\/e-emovel.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -619,6 +814,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/edoc-saude.png": {
+		"ft": 32768,
+		"iS": 26241,
+		"oA": 0,
+		"oAP": "\/images\/logos\/edoc-saude.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/effec-ti.png": {
 		"ft": 32768,
 		"iS": 18233,
@@ -630,11 +836,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/embria.png": {
+		"ft": 32768,
+		"iS": 28040,
+		"oA": 0,
+		"oAP": "\/images\/logos\/embria.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/emiolo.png": {
+		"ft": 32768,
+		"iS": 174937,
+		"oA": 0,
+		"oAP": "\/images\/logos\/emiolo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/ensina-brasil.png": {
 		"ft": 32768,
 		"iS": 240736,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ensina-brasil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/enviou.png": {
+		"ft": 32768,
+		"iS": 19692,
+		"oA": 0,
+		"oAP": "\/images\/logos\/enviou.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -751,6 +990,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/granplay.png": {
+		"ft": 32768,
+		"iS": 15108,
+		"oA": 0,
+		"oAP": "\/images\/logos\/granplay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/guia-de-rodas.png": {
 		"ft": 32768,
 		"iS": 13276,
@@ -795,6 +1045,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/hubblefy.png": {
+		"ft": 32768,
+		"iS": 20278,
+		"oA": 0,
+		"oAP": "\/images\/logos\/hubblefy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/icone_480x480.png": {
 		"ft": 32768,
 		"iS": 118357,
@@ -822,6 +1083,17 @@
 		"iS": 9535,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ideas-farm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/ideias-farm.png": {
+		"ft": 32768,
+		"iS": 19808,
+		"oA": 0,
+		"oAP": "\/images\/logos\/ideias-farm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -883,6 +1155,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/inti.png": {
+		"ft": 32768,
+		"iS": 25521,
+		"oA": 0,
+		"oAP": "\/images\/logos\/inti.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/inviron.png": {
+		"ft": 32768,
+		"iS": 11491,
+		"oA": 0,
+		"oAP": "\/images\/logos\/inviron.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/itera.png": {
+		"ft": 32768,
+		"iS": 23196,
+		"oA": 0,
+		"oAP": "\/images\/logos\/itera.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/konduto.png": {
+		"ft": 32768,
+		"iS": 24633,
+		"oA": 0,
+		"oAP": "\/images\/logos\/konduto.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/kpeyes.png": {
+		"ft": 32768,
+		"iS": 28393,
+		"oA": 0,
+		"oAP": "\/images\/logos\/kpeyes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/lady-driver.png": {
 		"ft": 32768,
 		"iS": 322225,
@@ -894,11 +1221,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/legal-insights.png": {
+		"ft": 32768,
+		"iS": 19248,
+		"oA": 0,
+		"oAP": "\/images\/logos\/legal-insights.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/legalbot.png": {
+		"ft": 32768,
+		"iS": 25889,
+		"oA": 0,
+		"oAP": "\/images\/logos\/legalbot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/logstore.png": {
+		"ft": 32768,
+		"iS": 18425,
+		"oA": 0,
+		"oAP": "\/images\/logos\/logstore.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/mais-retorno.png": {
+		"ft": 32768,
+		"iS": 18190,
+		"oA": 0,
+		"oAP": "\/images\/logos\/mais-retorno.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/mais-solucoes.png": {
 		"ft": 32768,
 		"iS": 14336,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mais-solucoes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/market-up.png": {
+		"ft": 32768,
+		"iS": 21793,
+		"oA": 0,
+		"oAP": "\/images\/logos\/market-up.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -927,6 +1309,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/mooh-tech.png": {
+		"ft": 32768,
+		"iS": 20166,
+		"oA": 0,
+		"oAP": "\/images\/logos\/mooh-tech.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/muove.png": {
 		"ft": 32768,
 		"iS": 12446,
@@ -938,11 +1331,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/murabei.png": {
+		"ft": 32768,
+		"iS": 23034,
+		"oA": 0,
+		"oAP": "\/images\/logos\/murabei.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/my-first-ipo.png": {
 		"ft": 32768,
 		"iS": 6103,
 		"oA": 0,
 		"oAP": "\/images\/logos\/my-first-ipo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/myleus.png": {
+		"ft": 32768,
+		"iS": 22207,
+		"oA": 0,
+		"oAP": "\/images\/logos\/myleus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/myreks.png": {
+		"ft": 32768,
+		"iS": 22703,
+		"oA": 0,
+		"oAP": "\/images\/logos\/myreks.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/neomove.png": {
+		"ft": 32768,
+		"iS": 18931,
+		"oA": 0,
+		"oAP": "\/images\/logos\/neomove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/netlex.png": {
+		"ft": 32768,
+		"iS": 19377,
+		"oA": 0,
+		"oAP": "\/images\/logos\/netlex.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -982,6 +1430,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/nuveo.png": {
+		"ft": 32768,
+		"iS": 21302,
+		"oA": 0,
+		"oAP": "\/images\/logos\/nuveo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/pay-plug.png": {
 		"ft": 32768,
 		"iS": 92134,
@@ -993,11 +1452,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/phishx.png": {
+		"ft": 32768,
+		"iS": 20200,
+		"oA": 0,
+		"oAP": "\/images\/logos\/phishx.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/play-plug.png": {
+		"ft": 32768,
+		"iS": 92134,
+		"oA": 0,
+		"oAP": "\/images\/logos\/play-plug.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/playplug.png": {
 		"ft": 32768,
 		"iS": 10871,
 		"oA": 0,
 		"oAP": "\/images\/logos\/playplug.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/plug-seguros.png": {
+		"ft": 32768,
+		"iS": 21647,
+		"oA": 0,
+		"oAP": "\/images\/logos\/plug-seguros.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1059,6 +1551,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/rapidoc-brasi.png": {
+		"ft": 32768,
+		"iS": 19046,
+		"oA": 0,
+		"oAP": "\/images\/logos\/rapidoc-brasi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/rapidoc.png": {
 		"ft": 32768,
 		"iS": 19046,
@@ -1092,6 +1595,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/reex-lab.png": {
+		"ft": 32768,
+		"iS": 19122,
+		"oA": 0,
+		"oAP": "\/images\/logos\/reex-lab.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/revelo.png": {
 		"ft": 32768,
 		"iS": 18719,
@@ -1108,6 +1622,17 @@
 		"iS": 113439,
 		"oA": 0,
 		"oAP": "\/images\/logos\/saffe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/scaffold-education.png": {
+		"ft": 32768,
+		"iS": 23453,
+		"oA": 0,
+		"oAP": "\/images\/logos\/scaffold-education.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1257,6 +1782,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/tecpay.png": {
+		"ft": 32768,
+		"iS": 22604,
+		"oA": 0,
+		"oAP": "\/images\/logos\/tecpay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/teravoz.png": {
+		"ft": 32768,
+		"iS": 20599,
+		"oA": 0,
+		"oAP": "\/images\/logos\/teravoz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/token-lab.png": {
 		"ft": 32768,
 		"iS": 31451,
@@ -1334,11 +1881,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/waal-jobs.png": {
+		"ft": 32768,
+		"iS": 26708,
+		"oA": 0,
+		"oAP": "\/images\/logos\/waal-jobs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/way-carbon.png": {
 		"ft": 32768,
 		"iS": 1515270,
 		"oA": 0,
 		"oAP": "\/images\/logos\/way-carbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/waycarbon.png": {
+		"ft": 32768,
+		"iS": 1515270,
+		"oA": 0,
+		"oAP": "\/images\/logos\/waycarbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/win-win.png": {
+		"ft": 32768,
+		"iS": 20135,
+		"oA": 0,
+		"oAP": "\/images\/logos\/win-win.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1383,6 +1963,17 @@
 		"iS": 62698,
 		"oA": 0,
 		"oAP": "\/images\/logos\/zen-klub.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/zig-pay.png": {
+		"ft": 32768,
+		"iS": 25655,
+		"oA": 0,
+		"oAP": "\/images\/logos\/zig-pay.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1507,11 +2098,11 @@
 		"oAP": "\/resources\/startups.xlsx",
 		"oF": 0
 		},
-	"\/resources\/~$startups.xlsx": {
+	"\/resources\/startups.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/resources\/~$startups.xlsx",
+		"oAP": "\/resources\/startups.zip",
 		"oF": 0
 		},
 	"\/sobre.html": {
