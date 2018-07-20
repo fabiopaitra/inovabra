@@ -62,14 +62,17 @@
     <main>
       <div class="institucional">
         <h1 class="intro-1"><span>Book de Startups</span></h1>
+
         <div id="vue-list-startups">
-          <div v-for="(startupGroup, index) in startups">
-            <h1 class="text-center">{{ startupGroup.Category }}</h1>
+          <div v-for="(startupGroup, index) in startups" :style="{ opacity: showList ? 1 : 0 }">
+            <h1 class="intro-1 text-center">{{ startupGroup.Category }}</h1>
+
             <ul class="grid effect-2"
                 :id="`grid${index}`">
               <li v-for="startup in startupGroup.startups"
                   :key="startup.name"
                   style="padding: 10px">
+                  
                 <a href=""
                    style="cursor:text !important; text-Decoration: none !important;"
                    class="inline">
@@ -153,11 +156,14 @@
                 viewportFactor: 0.2
               });
             }
+
+          this.showList = true;
           }, 2000);
         });
     },
     data: function () {
       return {
+        showList: false,
         startups: [],
       }
     },

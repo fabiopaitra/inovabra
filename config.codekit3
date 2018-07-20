@@ -913,11 +913,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/eztravel.png": {
+		"ft": 32768,
+		"iS": 20215,
+		"oA": 0,
+		"oAP": "\/images\/logos\/eztravel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/field-control.png": {
 		"ft": 32768,
 		"iS": 29548,
 		"oA": 0,
 		"oAP": "\/images\/logos\/field-control.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/financas-360.png": {
+		"ft": 32768,
+		"iS": 6295,
+		"oA": 0,
+		"oAP": "\/images\/logos\/financas-360.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -940,6 +962,17 @@
 		"iS": 13652,
 		"oA": 0,
 		"oAP": "\/images\/logos\/find-up.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/flipside.png": {
+		"ft": 32768,
+		"iS": 11650,
+		"oA": 0,
+		"oAP": "\/images\/logos\/flipside.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1661,6 +1694,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/simply.png": {
+		"ft": 32768,
+		"iS": 16815,
+		"oA": 0,
+		"oAP": "\/images\/logos\/simply.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/sintecsys.png": {
 		"ft": 32768,
 		"iS": 10666,
@@ -1881,6 +1925,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/vetor-brasil.png": {
+		"ft": 32768,
+		"iS": 493430,
+		"oA": 0,
+		"oAP": "\/images\/logos\/vetor-brasil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/waal-jobs.png": {
 		"ft": 32768,
 		"iS": 26708,
@@ -2084,6 +2139,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/resources\/Book startups habitat_junho_completo.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/Book startups habitat_junho_completo.xlsx",
+		"oF": 0
+		},
 	"\/resources\/startups.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -2103,6 +2165,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resources\/startups.zip",
+		"oF": 0
+		},
+	"\/resources\/~$Book startups habitat_junho_completo.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/~$Book startups habitat_junho_completo.xlsx",
 		"oF": 0
 		},
 	"\/sobre.html": {
