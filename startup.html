@@ -1,129 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link href="https://fonts.googleapis.com/css?family=Muli:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="main.css">
-	<title>Institucional | InovaBra Habitat | Bradesco</title>
-	
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="default.css" />
-	<link rel="stylesheet" type="text/css" href="component.css" />
-	<script src="modernizr.custom.js"></script>
-	<script src="masonry.pkgd.min.js"></script>
-	<script src="imagesloaded.js"></script>
-	<script src="classie.js"></script>
-	<script src="AnimOnScroll.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible"
+        content="ie=edge">
+  <meta name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable"
+        content="yes" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900"
+        rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+  <link rel="stylesheet"
+        href="main.css">
+  <title>Institucional | InovaBra Habitat | Bradesco</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet"
+        type="text/css"
+        href="default.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        href="component.css" />
+  <script src="modernizr.custom.js"></script>
+  <script src="masonry.pkgd.min.js"></script>
+  <script src="imagesloaded.js"></script>
+  <script src="classie.js"></script>
+  <script src="AnimOnScroll.js"></script>
 </head>
+
 <body>
-	
-	<div class="conteudo">
-		<div class="header-home"></div>
-		<header>
-			<nav>
-			<div class="logo"><img src="images/logo-header.svg" width="220px" alt=""></div>
-				<div class="page-wrap">
-					<label for="sidebartoggler" class="toggle">≡</label>
-					<input type="checkbox" id="sidebartoggler">
-					<div class="sidebar">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="sobre.html">Sobre</a></li>
-							<li><a href="institucional.html">Institucional</a></li>
-							<li><a href="equipe.html">Equipe</a></li>
-							<li><a href="startup.html" class="red">Book de Startups</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</header>
-		<main>
-			<div class="institucional">
-				<h1 class="intro-1"><span>Book de Startups</span></h1>
-
-				<div id="vue-list-startups">
-					<ul class="grid effect-2" id="grid">
-						<li v-for="startup in startups" :key="startup.name" style="padding: 10px">
-							<a href="" style="cursor:text !important; text-Decoration: none !important;" class="inline">
-								<!-- <img src="/images/btn-01.jpg"> -->
-								<div class="box-startups" style="padding: 20px">
-									<img :src="'images/logos/' + startup.Imagem + '.png'">
-									<p><span>Nome:</span> <strong>{{ startup.Nome }}</strong></p>
-									<p class="text-truncate"><span class="inline">Site: </span> <a class="inline" :href="'http://' + startup.Site" :title="startup.Site" target="startup">{{ startup.Site }}</a></p>
-									<p><span>Sede:</span> {{ startup.Sede }}</p>
-									<p><span>Fundação:</span> {{ startup['Fundação'] }}</p>
-									<p><span>Área de atuação:</span> {{ startup['Área de atuação'] }}</p>
-									<p><span>Founder(s):</span> {{ startup['Founder(s)'] }}</p>
-									<p class="text-truncate"><span>E-mail:</span> <a :href="'mailto:' + startup['E-mail']" :title="startup['E-mail']"  class="inline">{{ startup['E-mail'] }}</a></p>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-
-<!-- 
+  <div class="conteudo">
+    <div class="header-home"></div>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo-header.svg"
+               width="220px"
+               alt="">
+        </div>
+        <div class="page-wrap">
+          <label for="sidebartoggler"
+                 class="toggle">≡</label>
+          <input type="checkbox"
+                 id="sidebartoggler">
+          <div class="sidebar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="institucional.html">Institucional</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="startup.html"
+                   class="red">Book de Startups</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="institucional">
+        <h1 class="intro-1"><span>Book de Startups</span></h1>
+        <div id="vue-list-startups">
+          <div v-for="(startupGroup, index) in startups">
+            <h1 class="text-center">{{ startupGroup.Category }}</h1>
+            <ul class="grid effect-2"
+                :id="`grid${index}`">
+              <li v-for="startup in startupGroup.startups"
+                  :key="startup.name"
+                  style="padding: 10px">
+                <a href=""
+                   style="cursor:text !important; text-Decoration: none !important;"
+                   class="inline">
+                  <!-- <img src="/images/btn-01.jpg"> -->
+                  <div class="box-startups"
+                       style="padding: 20px">
+                    <img :src="'images/logos/' + startup.Imagem + '.png'">
+                    <p><span>Nome:</span>
+                      <strong>{{ startup.Nome }}</strong>
+                    </p>
+                    <p class="text-truncate"><span class="inline">Site: </span> <a class="inline"
+                         :href="'http://' + startup.Site"
+                         :title="startup.Site"
+                         target="startup">{{ startup.Site }}</a></p>
+                    <p><span>Sede:</span> {{ startup.Sede }}</p>
+                    <p><span>Fundação:</span> {{ startup['Fundação'] }}</p>
+                    <p><span>Área de atuação:</span> {{ startup['Área de atuação'] }}</p>
+                    <p><span>Founder(s):</span> {{ startup['Founder(s)'] }}</p>
+                    <p class="text-truncate"><span>E-mail:</span> <a :href="'mailto:' + startup['E-mail']"
+                         :title="startup['E-mail']"
+                         class="inline">{{ startup['E-mail'] }}</a></p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 
 				<a href="book-de-startups.pdf"><img src="images/book-startups.jpg" class="pdf" alt="Book de Startups"></a>
         <a href="book-de-startups.pdf" class="btn default">Clique para baixar</a> -->
-			</div>
+      </div>
     </main>
     <div class="geodesica"></div>
     <div class="geodesica-1"></div>
-		<div class="geodesica-3"></div>
-	</div>
+    <div class="geodesica-3"></div>
+  </div>
 </body>
-
 <script>
-	new Vue({
-		el: '#vue-list-startups',
-		mounted: function () {
-			axios.get('resources/startups.csv')
-				.then((fileData) => {
-					var startupsRaw = fileData.data || '';
+  new Vue({
+    el: '#vue-list-startups',
+    mounted: function () {
+      axios.get('resources/startups.csv')
+        .then((fileData) => {
+          var startupsRaw = fileData.data || '';
 
-					// Split the file in multiple items, which each represent a startup
-					var items = startupsRaw.split('\r');
-					var titles = items[0].split(';');
+          // Split the file in multiple items, which each represent a startup
+          var items = startupsRaw.split('\r');
+          var titles = items[0].split(';');
 
-					var treatedStartups = [];
-					items.forEach(function (item, index) {
-						// Prevent to add the titles to the startup list
-						if (!index) {
-							return null;
-						}
+          var treatedStartups = [];
+          items.forEach(function (item, index) {
+            // Prevent to add the titles to the startup list
+            if (!index) {
+              return null;
+            }
 
-						var temp = item.split(';');
+            var temp = item.split(';');
 
-						var treatedStartup = {};
-						temp.forEach(function (value, index) {
-							treatedStartup[titles[index]] = value;
-						});
+            var treatedStartup = {};
+            temp.forEach(function (value, index) {
+              treatedStartup[titles[index]] = value;
+            });
 
-						// This startup is finished treating. We save it in an array.
-						treatedStartups.push(treatedStartup);
-					});
+            // This startup is finished treating. We save it in an array.
+            treatedStartups.push(treatedStartup);
+          });
 
-					this.startups = treatedStartups;
+          this.startups = [...treatedStartups.reduce((hash, { Category, ...startup }) => {
+            const current = hash.get(Category) || { Category, startups: [] };
 
-					setTimeout(() => {new AnimOnScroll( document.getElementById( 'grid' ), {
-						minDuration : 0.4,
-						maxDuration : 0.7,
-						viewportFactor : 0.2
-					} );}, 2000)
-			});
-		},
-		data: function () {
-			return {
-				startups: [],
-			}
-		},
-	});
+            current.startups.push({ ...startup });
+
+            return hash.set(Category, current);
+          }, new Map).values()];
+
+          setTimeout(() => {
+            for (let i = 0; i < this.startups.length; i += 1) {
+              new AnimOnScroll(document.getElementById(`grid${i}`), {
+                minDuration: 0.4,
+                maxDuration: 0.7,
+                viewportFactor: 0.2
+              });
+            }
+          }, 2000);
+        });
+    },
+    data: function () {
+      return {
+        startups: [],
+      }
+    },
+  });
 </script>
-		<!-- <script>
+<!-- <script>
 			new AnimOnScroll( document.getElementById( 'grid' ), {
 				minDuration : 0.4,
 				maxDuration : 0.7,
