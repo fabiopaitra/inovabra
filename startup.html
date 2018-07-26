@@ -50,7 +50,7 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="institucional.html">Institucional</a></li>
+              <li><a href="institucional.html">Vídeo Institucional</a></li>
               <li><a href="equipe.html">Equipe</a></li>
               <li><a href="startup.html"
                    class="red">Book de Startups</a></li>
@@ -79,7 +79,11 @@
                   <!-- <img src="/images/btn-01.jpg"> -->
                   <div class="box-startups"
                        style="padding: 20px">
-                    <img :src="'images/logos/' + startup.Imagem + '.png'">
+                       <a class="inline"
+                         :href="'http://' + startup.Site"
+                         :title="startup.Site"
+                         target="startup"><img :src="'images/logos/' + startup.Imagem + '.png'"></a>
+                    
                     <p><span>Nome:</span>
                       <strong>{{ startup.Nome }}</strong>
                     </p>
