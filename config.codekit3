@@ -202,7 +202,7 @@
 		"oAP": "\/images\/foto-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/foto-05.jpg": {
@@ -332,6 +332,50 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/foto-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-17.jpg": {
+		"ft": 16384,
+		"iS": 15070,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-18.jpg": {
+		"ft": 16384,
+		"iS": 12741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-18.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-19.jpg": {
+		"ft": 16384,
+		"iS": 16287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/foto-20.jpg": {
+		"ft": 16384,
+		"iS": 1634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-20.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
