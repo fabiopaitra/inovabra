@@ -17,6 +17,7 @@
         href="main.css">
   <title>Institucional | InovaBra Habitat | Bradesco</title>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-scrollto"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <link rel="stylesheet"
         type="text/css"
@@ -60,23 +61,21 @@
       </nav>
     </header>
     <main>
-      <div class="institucional">
+      <div class="institucional" id="vue-list-startups">
         <h1 class="intro-1"><span>Book de Startups</span></h1>
         <div class="row">
           <div class="col-sm-12">
         <ul>
-          <li><a href="#">BIT DATA</a></li>
-          <li><a href="#">BLOCKCHAIN</a></li>
-          <li><a href="#">INTERNET DAS COISAS</a></li>
-          <li><a href="#">OPEN API E PLATAFORMAS DIGITAIS</a></li>
-          <li><a href="#">COMPUTAÇÃO IMERSIVA</a></li>
+          <li v-for="startup in startups">
+            <a href="#" v-scroll-to="`#${startup.Category.replace(/\ /g, '-')}`">{{ startup.Category }}</a>
+          </li>
         </ul>
       </div>
       </div>
 
-        <div id="vue-list-startups">
+        <div>
           <div v-for="(startupGroup, index) in startups" :style="{ opacity: showList ? 1 : 0 }">
-            <h1 class="intro-1 text-center" id="startupGroup.Category">{{ startupGroup.Category }}</h1>
+            <h1 class="intro-1 text-center" :id="startupGroup.Category.replace(/\ /g, '-')">{{ startupGroup.Category }}</h1>
 
             <ul class="grid effect-2"
                 :id="`grid${index}`">
@@ -126,6 +125,7 @@
   </div>
 </body>
 <script>
+  Vue.use(VueScrollTo);
   new Vue({
     el: '#vue-list-startups',
     mounted: function () {
