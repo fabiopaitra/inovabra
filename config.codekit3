@@ -443,6 +443,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 2552,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/1m2.png": {
 		"ft": 32768,
 		"iS": 16958,
@@ -2233,7 +2244,7 @@
 "projectAttributes": {
 	"creationDate": 545940776,
 	"displayValue": "InovaBra",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-facepalm",
 	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 545943903
