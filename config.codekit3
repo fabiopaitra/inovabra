@@ -372,13 +372,24 @@
 		},
 	"\/images\/foto-20.jpg": {
 		"ft": 16384,
-		"iS": 1634,
+		"iS": 131619,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/foto-20.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/foto-21.jpg": {
+		"ft": 16384,
+		"iS": 144854,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/geodesica.jpg": {
@@ -2220,6 +2231,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resources\/startups.zip",
+		"oF": 0
+		},
+	"\/resources\/~$Book startups habitat_junho_completo.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/~$Book startups habitat_junho_completo.xlsx",
 		"oF": 0
 		},
 	"\/sobre.html": {
