@@ -392,6 +392,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/foto-22.jpg": {
+		"ft": 16384,
+		"iS": 13695,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/foto-22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/geodesica.jpg": {
 		"ft": 16384,
 		"iS": 95326,
@@ -2002,11 +2013,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/logos\/waal-jobs.png": {
+	"\/images\/logos\/wall-jobs.png": {
 		"ft": 32768,
 		"iS": 26708,
 		"oA": 0,
-		"oAP": "\/images\/logos\/waal-jobs.png",
+		"oAP": "\/images\/logos\/wall-jobs.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2205,13 +2216,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/resources\/Book startups habitat_junho_completo.xlsx": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/Book startups habitat_junho_completo.xlsx",
-		"oF": 0
-		},
 	"\/resources\/startups.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -2224,20 +2228,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resources\/startups.xlsx",
-		"oF": 0
-		},
-	"\/resources\/startups.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups.zip",
-		"oF": 0
-		},
-	"\/resources\/~$Book startups habitat_junho_completo.xlsx": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/~$Book startups habitat_junho_completo.xlsx",
 		"oF": 0
 		},
 	"\/sobre.html": {
