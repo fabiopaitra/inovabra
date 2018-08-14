@@ -2216,6 +2216,27 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/resources\/startups-jul.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/startups-jul.xlsx",
+		"oF": 0
+		},
+	"\/resources\/startups-junho.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/startups-junho.csv",
+		"oF": 0
+		},
+	"\/resources\/startups-v2.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/startups-v2.csv",
+		"oF": 0
+		},
 	"\/resources\/startups.csv": {
 		"cB": 0,
 		"ft": 8192,
@@ -2228,6 +2249,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resources\/startups.xlsx",
+		"oF": 0
+		},
+	"\/resources\/startups_HTML_JUL.csv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/startups_HTML_JUL.csv",
+		"oF": 0
+		},
+	"\/resources\/startups_HTML_JUL.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources\/startups_HTML_JUL.xlsx",
 		"oF": 0
 		},
 	"\/sobre.html": {
