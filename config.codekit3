@@ -27,20 +27,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/book-de-startups.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/book-de-startups.pdf",
-		"oF": 0
-		},
-	"\/build\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/.gitignore",
-		"oF": 0
-		},
 	"\/classie.js": {
 		"ft": 64,
 		"ma": 0,
@@ -86,6 +72,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/equipe.html",
+		"oF": 0
+		},
+	"\/guia-atualizacao.pptx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/guia-atualizacao.pptx",
 		"oF": 0
 		},
 	"\/images\/abertura-bradesco.mp4": {
@@ -597,14 +590,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/logos\/badoda.gif": {
-		"ft": 4194304,
-		"iS": 48626,
-		"oA": 0,
-		"oAP": "\/images\/logos\/badoda.gif",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/images\/logos\/badoda.png": {
 		"ft": 32768,
 		"iS": 5916,
@@ -704,6 +689,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/checklistfacil.png": {
+		"ft": 32768,
+		"iS": 7181,
+		"oA": 0,
+		"oAP": "\/images\/logos\/checklistfacil.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/cinnecta.png": {
 		"ft": 32768,
 		"iS": 24273,
@@ -731,6 +727,17 @@
 		"iS": 5573,
 		"oA": 0,
 		"oAP": "\/images\/logos\/cognitivo-ai.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/cuponeria.png": {
+		"ft": 32768,
+		"iS": 5047,
+		"oA": 0,
+		"oAP": "\/images\/logos\/cuponeria.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1058,7 +1065,7 @@
 		},
 	"\/images\/logos\/folha-certa.png": {
 		"ft": 32768,
-		"iS": 18915,
+		"iS": 18918,
 		"oA": 0,
 		"oAP": "\/images\/logos\/folha-certa.png",
 		"oF": 0,
@@ -1298,6 +1305,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/jobecam.png": {
+		"ft": 32768,
+		"iS": 8871,
+		"oA": 0,
+		"oAP": "\/images\/logos\/jobecam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/jota.png": {
+		"ft": 32768,
+		"iS": 7644,
+		"oA": 0,
+		"oAP": "\/images\/logos\/jota.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/juster.png": {
+		"ft": 32768,
+		"iS": 5280,
+		"oA": 0,
+		"oAP": "\/images\/logos\/juster.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/konduto.png": {
 		"ft": 32768,
 		"iS": 24633,
@@ -1353,11 +1393,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/lett.png": {
+		"ft": 32768,
+		"iS": 5497,
+		"oA": 0,
+		"oAP": "\/images\/logos\/lett.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/liss.png": {
+		"ft": 32768,
+		"iS": 11765,
+		"oA": 0,
+		"oAP": "\/images\/logos\/liss.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/logstore.png": {
 		"ft": 32768,
 		"iS": 18425,
 		"oA": 0,
 		"oAP": "\/images\/logos\/logstore.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/lotus.png": {
+		"ft": 32768,
+		"iS": 9147,
+		"oA": 0,
+		"oAP": "\/images\/logos\/lotus.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1391,6 +1464,17 @@
 		"iS": 21793,
 		"oA": 0,
 		"oAP": "\/images\/logos\/market-up.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/maturi-jobs.png": {
+		"ft": 32768,
+		"iS": 10546,
+		"oA": 0,
+		"oAP": "\/images\/logos\/maturi-jobs.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1661,6 +1745,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/rankdone.png": {
+		"ft": 32768,
+		"iS": 7546,
+		"oA": 0,
+		"oAP": "\/images\/logos\/rankdone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/rapidoc-brasi.png": {
 		"ft": 32768,
 		"iS": 19046,
@@ -1727,6 +1822,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/safe-orange.png": {
+		"ft": 32768,
+		"iS": 12171,
+		"oA": 0,
+		"oAP": "\/images\/logos\/safe-orange.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/saffe.png": {
 		"ft": 32768,
 		"iS": 113439,
@@ -1743,6 +1849,17 @@
 		"iS": 23453,
 		"oA": 0,
 		"oAP": "\/images\/logos\/scaffold-education.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/segurize.png": {
+		"ft": 32768,
+		"iS": 6650,
+		"oA": 0,
+		"oAP": "\/images\/logos\/segurize.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1798,6 +1915,17 @@
 		"iS": 40522,
 		"oA": 0,
 		"oAP": "\/images\/logos\/smarkets.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/smart-cyber.png": {
+		"ft": 32768,
+		"iS": 12671,
+		"oA": 0,
+		"oAP": "\/images\/logos\/smart-cyber.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1930,6 +2058,17 @@
 		"iS": 31451,
 		"oA": 0,
 		"oAP": "\/images\/logos\/token-lab.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/torabit.png": {
+		"ft": 32768,
+		"iS": 7134,
+		"oA": 0,
+		"oAP": "\/images\/logos\/torabit.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2216,53 +2355,11 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/resources\/startups-jul.xlsx": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups-jul.xlsx",
-		"oF": 0
-		},
-	"\/resources\/startups-junho.csv": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups-junho.csv",
-		"oF": 0
-		},
-	"\/resources\/startups-v2.csv": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups-v2.csv",
-		"oF": 0
-		},
 	"\/resources\/startups.csv": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resources\/startups.csv",
-		"oF": 0
-		},
-	"\/resources\/startups.xlsx": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups.xlsx",
-		"oF": 0
-		},
-	"\/resources\/startups_HTML_JUL.csv": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups_HTML_JUL.csv",
-		"oF": 0
-		},
-	"\/resources\/startups_HTML_JUL.xlsx": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/resources\/startups_HTML_JUL.xlsx",
 		"oF": 0
 		},
 	"\/sobre.html": {
@@ -2277,6 +2374,27 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/startup.html",
+		"oF": 0
+		},
+	"\/xlxs\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/xlxs\/.gitignore",
+		"oF": 0
+		},
+	"\/xlxs\/startups.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/xlxs\/startups.xlsx",
+		"oF": 0
+		},
+	"\/xlxs\/~$startups.xlsx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/xlxs\/~$startups.xlsx",
 		"oF": 0
 		}
 	},
