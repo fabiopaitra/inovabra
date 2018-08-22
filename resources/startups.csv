@@ -1,4 +1,4 @@
-﻿Nome;Site;Sede;Fundação;Área de atuação;Founder(s);E-mail;Imagem;Category
+﻿Nome;Site;Sede;Fundação;Área de atuação;Fundadores;E-mail;Imagem;Category
 Acesso Digital;www.acesso.io;São Paulo - SP;2007;Financeiro, varejo, saúde e e-commerce.;Diego Martins e Paulo Alencastro;marketing@acessodigital.com.br;acesso-digital;BIG DATA
 Access55;www.access55.com;São Paulo - SP;2015;SaaS.;André Wetter;andre@access55.com;access55;BIG DATA
 Agrusdata;www.agrusdata.com;inovaBra habitat | São Paulo - SP;2016;Agronegócio.;Herlon Oliveira;herlon@agrusdata.com;agrusdata;BIG DATA
@@ -30,7 +30,7 @@ Konduto;www.konduto.com;São Paulo - SP;2014;Fintech.;Tom Canabarro;tom@konduto.
 Legal Insights;www.legalinsights.com.br;inovaBra habitat | São Paulo - SP;2017;Jurídica.;Marcos Speca;marcos.speca@legalinsights.com.br;legal-insights;BIG DATA
 LETT;www.lett.digital;Belo Horizonte - MG;2015;E-commerce e digital trade marketing.;Davi Jo Hwi Song;davisong@lett.digital;lett;BIG DATA 
 LISS;www.liss.net.br;São Paulo - SP;2016;Setor jurídico e atuação vertical em automation.;Vinicius A. Vargas;vinicius.vargas@liss.net.br;liss;BIG DATA 
-MaturiJobs;www.maturijobs.com;São Paulo - SP;2015;Longevidade/envelhecimento, educação para adultos e RH.;Mórris Litvak;morris@maturijobs.com;Maturi-Jobs;BIG DATA
+MaturiJobs;www.maturijobs.com;São Paulo - SP;2015;Longevidade/envelhecimento, educação para adultos e RH.;Mórris Litvak;morris@maturijobs.com;maturijobs;BIG DATA
 Mobilitee;www.mobilitee.com.br;inovaBra habitat | São Paulo - SP;2017;Mobilidade urbana, smart citie e expense management.;José Renato Mannis e Leandro Ceccato;jrmannis@taximanager.com.br | leandroceccato@mobilitee.com.br;mobilitee;BIG DATA
 Mooh Tech;www.moohtech.com;Recife - PE;2017;Segurança e comunicação de emergência.;Everton Cruz e Bruno Silva;everton.cruz@moohtech.com;mooh-tech;BIG DATA
 Murabei ;www.murabei.com;Rio de Janeiro - RJ;2014;Consultoria de data science.;Eugenio Caner e André Baceti;e.caner@murabei.com;murabei;BIG DATA
@@ -137,4 +137,4 @@ Zenklub ;www.zenklub.com;inovaBra habitat | São Paulo - SP;2016;HRtech e health
 Ideias Farm ;www.ideasfarm.com.br;inovaBra habitat | São Paulo - SP;2015;6B2B, retail e comunicação.;Rodrigo Sagioma  e  Andre Chaves;sagioma@ideas.farm | andre@ideas.farm;ideias-farm;COMPUTAÇÃO IMERSIVA
 Realvi ;www.realvi.com;inovaBra habitat | São Paulo - SP;2017;Capacitação, educação e aumento de produtividade.;Fernando  Barcelini e Diego Dias;fernando@realvi.com | diego@realvi.com;realvi;COMPUTAÇÃO IMERSIVA
 Win Win ;www.winwin.media;inovaBra habitat | São Paulo - SP;2016;Varejo, mídia, marketing, promoção, eventos e comunicação.;Daniela Klaima;daniela@winwin.media;win-win;COMPUTAÇÃO IMERSIVA
-4Dmaís ;4dmais.com.br;inovaBra habitat | São Paulo - SP;2016;Educação e entretenimento infantil.;Pablo Camilli, Kedma Tolentino e Guilherme Robles Jr;contato@4dmais.com.br ;4d-mais;COMPUTAÇÃO IMERSIVA
+4Dmaís ;4dmais.com.br;inovaBra habitat | São Paulo - SP;2016;Educação e Entretenimento infantil.;Pablo Camilli, Kedma Tolentino e Guilherme Robles Jr;contato@4dmais.com.br ;4d-mais;COMPUTAÇÃO IMERSIVA
