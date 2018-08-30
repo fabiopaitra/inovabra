@@ -1437,6 +1437,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logos\/mais-retorno.png": {
+		"ft": 32768,
+		"iS": 16090,
+		"oA": 0,
+		"oAP": "\/images\/logos\/mais-retorno.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logos\/mais-solucoes.png": {
 		"ft": 32768,
 		"iS": 14336,
@@ -2036,6 +2047,17 @@
 		"iS": 20599,
 		"oA": 0,
 		"oAP": "\/images\/logos\/teravoz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logos\/token-lab.png": {
+		"ft": 32768,
+		"iS": 32644,
+		"oA": 0,
+		"oAP": "\/images\/logos\/token-lab.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
