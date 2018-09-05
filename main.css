@@ -403,8 +403,8 @@ hr {
 	height: 330px;
 	background-image: linear-gradient(90deg, #c91735, #89161f);
 	z-index: -1;
-	/* transform: rotate(3deg); */
-	overflow: hidden;
+	transform: rotate(3deg);
+    overflow: hidden !important;
 }
 
 @media screen and (min-width: 500px) {
@@ -421,7 +421,8 @@ hr {
 	height: 150vh;
 	background-image: url(images/geodesica.jpg);
 	background-repeat: no-repeat;
-	z-index: -3;
+    z-index: -3;
+    overflow: hidden !important;
 }
 
 .geodesica-1 {
@@ -435,7 +436,8 @@ hr {
 	right: -40px;
 	z-index: -1;
 	mix-blend-mode: color;
-	opacity: 0.3;
+    opacity: 0.3;
+    overflow: hidden !important;
 }
 .geodesica-2 {
 	position: absolute;
@@ -450,6 +452,7 @@ hr {
     mix-blend-mode: overlay;
     background-size: contain;
     background-repeat: no-repeat;
+    overflow: hidden !important;
 }
 .geodesica-3 {
 	position: absolute;
@@ -464,7 +467,8 @@ hr {
 	mix-blend-mode: soft-light;
 	opacity: 0.5;
 	background-size: contain;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    overflow: hidden !important;
 }
 
 video {
