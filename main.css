@@ -403,7 +403,7 @@ hr {
 	height: 330px;
 	background-image: linear-gradient(90deg, #c91735, #89161f);
 	z-index: -1;
-	transform: rotate(3deg);
+	/* transform: rotate(3deg); */
 	overflow: hidden;
 }
 

@@ -393,8 +393,7 @@ hr {
   background-image: -webkit-gradient(linear, left top, right top, from(#c91735), to(#89161f));
   background-image: linear-gradient(90deg, #c91735, #89161f);
   z-index: -1;
-  -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
+  /* transform: rotate(3deg); */
   overflow: hidden; }
 
 @media screen and (min-width: 500px) {
