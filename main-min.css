@@ -386,7 +386,7 @@ hr {
   border-top: 1px solid #e0173b; }
 
 .header-home {
-  position: absolute;
+  position: relative;
   top: -200px;
   width: 110%;
   height: 330px;
@@ -404,8 +404,7 @@ hr {
 .geodesica {
   position: absolute;
   bottom: 0;
-  left: -700px;
-  width: 300vw;
+  width: 100%;
   height: 150vh;
   background-image: url(images/geodesica.jpg);
   background-repeat: no-repeat;
@@ -455,7 +454,6 @@ hr {
   height: 31vh;
   -webkit-transform: rotate(3deg);
           transform: rotate(3deg);
-  left: -164px;
   z-index: -1;
   mix-blend-mode: soft-light;
   opacity: 0.5;
@@ -470,3 +468,6 @@ body, html {
   max-width: 100%;
   overflow-x: hidden !important;
   overflow-y: auto !important; }
+
+header {
+  margin-top: -332px; }
