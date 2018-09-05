@@ -386,7 +386,7 @@ hr {
   border-top: 1px solid #e0173b; }
 
 .header-home {
-  position: absolute;
+  position: fixed;
   top: -200px;
   width: 110%;
   height: 330px;
