@@ -425,7 +425,7 @@ hr {
 }
 
 .geodesica-1 {
-	position: absolute;
+	position: relative;
 	top: -200px;
 	clip-path: inset(0 0 7vh 0);
 	background-image: url(images/white-geodesic.png);
@@ -436,21 +436,6 @@ hr {
 	z-index: -1;
 	mix-blend-mode: color;
     opacity: 0.3;
-    overflow: hidden !important;
-}
-.geodesica-2 {
-	position: absolute;
-    top: 121px;
-    clip-path: inset(0 0 -4vh 0);
-    background-image: url(images/white-geodesic.png);
-    width: 14vw;
-    height: 11vh;
-    transform: rotate(3deg);
-    right: 140px;
-    z-index: -1;
-    mix-blend-mode: overlay;
-    background-size: contain;
-    background-repeat: no-repeat;
     overflow: hidden !important;
 }
 .geodesica-3 {
