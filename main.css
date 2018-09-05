@@ -397,7 +397,7 @@ hr {
 
 
 .header-home {
-	position: fixed;
+	position: absolute;
 	top: -200px;
 	width: 110%;
 	height: 330px;
