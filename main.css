@@ -40,11 +40,7 @@ footer, header, hgroup, menu, nav, section {
 	display: flex;
 } */
 
-html,
-body {
-	max-width: 100%;
-	overflow-x: hidden;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -473,4 +469,10 @@ hr {
 
 video {
 	max-width: 90vw;
+}
+
+body, html {
+	max-width: 100%;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
 }
